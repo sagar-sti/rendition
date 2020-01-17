@@ -1,4 +1,21 @@
 - commits:
+    - subject: Add a "position" prop to the Modal
+      hash: fda6155d101ce8c33f90085c96952c221a2ec5d8
+      body: |
+        Allowing the modal to be top-aligned is better
+        when the modal can expand vertically. If center-aligned
+        the modal expands in both directions, resulting in a bad
+        jumping UX. Setting the modal as top-aligned eliminates that
+        as the modal will only expand in the -y direction
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Stevche Radevski <stevche@balena.io>
+        signed-off-by: Stevche Radevski <stevche@balena.io>
+      author: Stevche Radevski
+  version: 12.1.0
+  date: 2020-01-17T11:28:16.534Z
+- commits:
     - subject: Refactor utils file and remove unnecessary functions
       hash: af35872cbb71944dc26b91ee58ea0f72b111b7b8
       body: ''
