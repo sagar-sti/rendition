@@ -1,4 +1,16 @@
 - commits:
+    - subject: Make Tooltips Accessible
+      hash: 44731d0ae7cafeb48241a1a691d98b24edb79b2f
+      body: ''
+      footer:
+        Change-type: Minor
+        change-type: Minor
+        Signed-off-by: Amit Solanki <amit@balena.io>
+        signed-off-by: Amit Solanki <amit@balena.io>
+      author: Amit Solanki
+  version: 13.2.0
+  date: 2020-02-13T09:10:44.702Z
+- commits:
     - subject: Add new shades for badge and adjust some existing ones
       hash: 6f9f5d443de06fb5531b8e7cb20f553407eb4977
       body: ''
