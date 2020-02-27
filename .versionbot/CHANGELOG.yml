@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'fix: build and bump typescript version'
+      hash: 785fc84bb73f8bb0062941dea0cd8c3f7cb1d014
+      body: |
+        fix build null index error and bump typescript version
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Andrea Rosci <andrear@balena.io>
+        signed-off-by: Andrea Rosci <andrear@balena.io>
+      author: JSReds
+  version: 13.2.4
+  date: 2020-02-27T14:18:36.618Z
+- commits:
     - subject: Fix Tooltip display for badges
       hash: 0c288998a3f2450b3180b2ffe0a0277a6b6c3bb0
       body: ''
