@@ -1,4 +1,16 @@
 - commits:
+    - subject: Replace tooltip with Rc-Tooltip
+      hash: 5e23ecfb29feb01dc1e5e4432403836af31588db
+      body: ''
+      footer:
+        Change-type: Minor
+        change-type: Minor
+        Signed-off-by: Amit Solanki <amit@balena.io>
+        signed-off-by: Amit Solanki <amit@balena.io>
+      author: Amit Solanki
+  version: 13.4.0
+  date: 2020-03-04T11:23:55.286Z
+- commits:
     - subject: aria-label on alert close button
       hash: 1cd34bea5a7665b01649f24da635fb3cb69c30d0
       body: ''
