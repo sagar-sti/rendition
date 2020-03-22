@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'Filters: Add support for extra buttons & responsiveness'
+      hash: 8fc66477a30d2925b2ca10cd3a0d88e086d52ed6
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+  version: 14.3.0
+  date: 2020-03-22T15:54:35.110Z
+- commits:
     - subject: 'Provider: Fix the theme prop typings'
       hash: 8557031a2533107cecf44b64678fcc1a4ff69d24
       body: |
