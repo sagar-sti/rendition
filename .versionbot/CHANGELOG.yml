@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'fix: filters search bar'
+      hash: 235e47d53ef70cf2ed132137d89bb1611e0772e2
+      body: |
+        alternative filters search bar fix
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Andrea Rosci <andrear@balena.io>
+        signed-off-by: Andrea Rosci <andrear@balena.io>
+      author: JSReds
+  version: 14.4.5
+  date: 2020-04-01T23:47:16.472Z
+- commits:
     - subject: 'refactor: schema sieve service function'
       hash: 85deffa9910a8e753fb54cc184b59be37b8f22e4
       body: |
