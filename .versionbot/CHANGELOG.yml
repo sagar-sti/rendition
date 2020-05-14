@@ -1,4 +1,16 @@
 - commits:
+    - subject: Basic Header implementation
+      hash: 48eb2d68fa036400a5f14ffe31a1f648ad1809d5
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Amit Solanki <amit@balena.io>
+        signed-off-by: Amit Solanki <amit@balena.io>
+      author: Amit Solanki
+  version: 14.12.0
+  date: 2020-05-14T11:29:44.909Z
+- commits:
     - subject: Update to prettier 2.x to match balena-lint
       hash: 03cc36741172299bc833c744368431b076ee6a38
       body: ''
