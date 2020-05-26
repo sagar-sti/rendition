@@ -1,5 +1,4 @@
 import { px } from 'styled-system';
-import get from 'lodash/get';
 import { Omit } from './common-types';
 
 const primary = '#00AEEF';
@@ -276,20 +275,6 @@ const theme = {
 		},
 		active: {
 			color: colors.primary.main,
-		},
-	},
-	tabs: {
-		header: {
-			extend: (props: any) => {
-				// compact is passed from the Tabs component to all child
-				// Tab components - but isn't directly available in 'props' :-(
-				if (get(props, ['children', 0, 'props', 'compact'])) {
-					return `
-						flex-wrap: nowrap;
-						overflow-x: auto;
-					`;
-				}
-			},
 		},
 	},
 	checkBox: {

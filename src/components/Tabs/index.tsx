@@ -17,6 +17,30 @@ interface InnerTabsProps extends TabsProps {
 	compact?: boolean;
 }
 
+const ScrollWrapper = styled(GrommetTabs)<{
+	compact?: boolean;
+}>`
+	${(props) => {
+		if (props.compact) {
+			return `
+				& > div {
+					scroll-snap-type: x mandatory;
+					overflow-x: scroll;
+					display: flex;
+					flex-wrap: nowrap;
+
+					scrollbar-width: none;
+					-ms-overflow-style: none;
+
+					&::-webkit-scrollbar {
+						width: 0px;
+					}
+				}
+			`;
+		}
+	}}
+`;
+
 const TabTitle = styled.span<{
 	compact?: boolean;
 }>`
@@ -26,6 +50,7 @@ const TabTitle = styled.span<{
 			white-space: nowrap;
 			overflow: hidden;
 			text-overflow: ellipsis;
+			scroll-snap-align: center;
 			`;
 		}
 	}}
@@ -38,14 +63,14 @@ export const Tab = ({ compact, title, ...props }: InnerTabProps) => {
 
 const TabsBase = ({ children, ...props }: InnerTabsProps) => {
 	return (
-		<GrommetTabs justify="start" {...props}>
+		<ScrollWrapper justify="start" {...props}>
 			{React.Children.map(
 				children,
 				(tab: React.ReactElement<InnerTabProps>) => {
 					return React.cloneElement(tab, { compact: props.compact });
 				},
 			)}
-		</GrommetTabs>
+		</ScrollWrapper>
 	);
 };
 
