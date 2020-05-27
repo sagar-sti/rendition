@@ -41,24 +41,29 @@ const ScrollWrapper = styled(GrommetTabs)<{
 	}}
 `;
 
-const TabTitle = styled.span<{
+const TabTitle = styled(GrommetTab)<{
 	compact?: boolean;
 }>`
 	${(props) => {
 		if (props.compact) {
 			return `
-			white-space: nowrap;
-			overflow: hidden;
-			text-overflow: ellipsis;
-			scroll-snap-align: center;
+			& > div {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				scroll-snap-align: center;
+			}
 			`;
 		}
 	}}
 `;
 
 export const Tab = ({ compact, title, ...props }: InnerTabProps) => {
-	const wrappedTitle = <TabTitle compact={compact}>{title}</TabTitle>;
-	return <GrommetTab title={wrappedTitle} {...props} />;
+	return (
+		<TabTitle compact={compact} title={title} {...props}>
+			{title}
+		</TabTitle>
+	);
 };
 
 const TabsBase = ({ children, ...props }: InnerTabsProps) => {
