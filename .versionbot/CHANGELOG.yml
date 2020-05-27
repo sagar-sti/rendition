@@ -1,4 +1,43 @@
 - commits:
+    - subject: update tab title to keep font colors
+      hash: 9c21fcc76d6aeba4c9f91eb0fd72ee1f756f6363
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stef Kors <stef@balena.io>
+        signed-off-by: Stef Kors <stef@balena.io>
+      author: StefKors
+    - subject: generate screenshots
+      hash: 76909a591e6630113dda39c4fb3074703f18faed
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stef Kors <stef@balena.io>
+        signed-off-by: Stef Kors <stef@balena.io>
+      author: StefKors
+    - subject: Add support for scroll snapping
+      hash: f40f94b638a98960e5aa9dbf559f009ea066fcb9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stef Kors <stef@balena.io>
+        signed-off-by: Stef Kors <stef@balena.io>
+      author: StefKors
+    - subject: Add support for scrollable tabs
+      hash: 0f0cc180aab43f1568d73408c8f25ed6573bec8c
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+  version: 14.12.0
+  date: 2020-05-27T08:58:51.550Z
+- commits:
     - subject: Update react-simplemde-editor to 4.1.1
       hash: 9d7c4d9003c2324d384701e8018bc65339f48c48
       body: >
